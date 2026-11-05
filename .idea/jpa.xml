@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PersistenceUnitSettings">
+    <persistence-units>
+      <persistence-unit moduleName="liga-crud" name="liga-crud" framework="JPA" ormUnit="liga-crud:liga-crud" defaultDataSourceId="f675e10e-25f3-4a17-914c-0507679d6745" />
+    </persistence-units>
+  </component>
+</project>
