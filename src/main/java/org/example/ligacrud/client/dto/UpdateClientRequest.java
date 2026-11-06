@@ -1,11 +1,11 @@
 package org.example.ligacrud.client.dto;
 
-import jakarta.validation.constraints.Pattern;
+import io.swagger.v3.oas.annotations.media.Schema;
 import org.example.ligacrud.client.entity.ClientStatus;
 import org.example.ligacrud.client.entity.Gender;
 
 public record UpdateClientRequest(
-        @Pattern(regexp = ".*\\S.*", message = "fullName must not be blank")
+        @Schema(example = "Ivanov Ivan Ivanovich")
         String fullName,
         Gender gender,
         ClientStatus status
